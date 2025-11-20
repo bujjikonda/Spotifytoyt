@@ -1,0 +1,16 @@
+{
+  "name": "spotify-to-sheets-youtube",
+  "version": "1.0.0",
+  "description": "Convert Spotify playlist to Google Sheets with YouTube links",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1",
+    "open": "^9.1.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
